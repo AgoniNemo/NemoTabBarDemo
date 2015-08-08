@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0264AA3D1B75CC8500D86B90 /* 0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0264AA3C1B75CC8500D86B90 /* 0.JPG */; };
 		28B8EFB31B746CD700A72486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8EFB21B746CD700A72486 /* main.m */; };
 		28B8EFB61B746CD800A72486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8EFB51B746CD800A72486 /* AppDelegate.m */; };
 		28B8EFB91B746CD800A72486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8EFB81B746CD800A72486 /* ViewController.m */; };
@@ -14,6 +15,30 @@
 		28B8EFBE1B746CD800A72486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFBD1B746CD800A72486 /* Images.xcassets */; };
 		28B8EFC11B746CD800A72486 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFBF1B746CD800A72486 /* LaunchScreen.xib */; };
 		28B8EFCD1B746CD800A72486 /* NemoTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8EFCC1B746CD800A72486 /* NemoTabBarTests.m */; };
+		28B8EFD71B74849D00A72486 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFD61B74849D00A72486 /* 4@2x.png */; };
+		28B8EFE71B7486BC00A72486 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFD91B7486BC00A72486 /* app_icon.png */; };
+		28B8EFE81B7486BC00A72486 /* chat_header_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFDA1B7486BC00A72486 /* chat_header_bg.jpg */; };
+		28B8EFE91B7486BC00A72486 /* crown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFDB1B7486BC00A72486 /* crown@2x.png */; };
+		28B8EFEA1B7486BC00A72486 /* crownSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFDC1B7486BC00A72486 /* crownSelect@2x.png */; };
+		28B8EFEB1B7486BC00A72486 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFDD1B7486BC00A72486 /* home@2x.png */; };
+		28B8EFEC1B7486BC00A72486 /* homeSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFDE1B7486BC00A72486 /* homeSelect@2x.png */; };
+		28B8EFED1B7486BC00A72486 /* letfbutton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFDF1B7486BC00A72486 /* letfbutton.jpg */; };
+		28B8EFEE1B7486BC00A72486 /* my@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFE01B7486BC00A72486 /* my@2x.png */; };
+		28B8EFEF1B7486BC00A72486 /* mySelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFE11B7486BC00A72486 /* mySelect@2x.png */; };
+		28B8EFF01B7486BC00A72486 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFE21B7486BC00A72486 /* search@2x.png */; };
+		28B8EFF11B7486BC00A72486 /* searchSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFE31B7486BC00A72486 /* searchSelect@2x.png */; };
+		28B8EFF21B7486BC00A72486 /* shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFE41B7486BC00A72486 /* shop@2x.png */; };
+		28B8EFF31B7486BC00A72486 /* shopSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFE51B7486BC00A72486 /* shopSelect@2x.png */; };
+		28B8EFF41B7486BC00A72486 /* UInav.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28B8EFE61B7486BC00A72486 /* UInav.jpg */; };
+		28B8F0001B748AE900A72486 /* NemoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8EFFD1B748AE900A72486 /* NemoButton.m */; };
+		28B8F0011B748AE900A72486 /* NemoTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8EFFF1B748AE900A72486 /* NemoTabBar.m */; };
+		28B8F0031B749B8400A72486 /* 6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8F0021B749B8400A72486 /* 6@2x.png */; };
+		28B8F0061B74A83D00A72486 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F0051B74A83D00A72486 /* oneViewController.m */; };
+		28B8F0091B74A85200A72486 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F0081B74A85200A72486 /* twoViewController.m */; };
+		28B8F00C1B74A85F00A72486 /* TherrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F00B1B74A85F00A72486 /* TherrViewController.m */; };
+		28B8F00F1B74A87500A72486 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F00E1B74A87500A72486 /* FourViewController.m */; };
+		28B8F0141B74A89900A72486 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F0131B74A89900A72486 /* FiveViewController.m */; };
+		28DC69541B74FBE600FBAB8E /* NemoNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC69531B74FBE600FBAB8E /* NemoNavigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0264AA3C1B75CC8500D86B90 /* 0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.JPG; path = ../TabBar/0.JPG; sourceTree = "<group>"; };
 		28B8EFAD1B746CD700A72486 /* NemoTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NemoTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B8EFB11B746CD700A72486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B8EFB21B746CD700A72486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +66,38 @@
 		28B8EFC61B746CD800A72486 /* NemoTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NemoTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B8EFCB1B746CD800A72486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B8EFCC1B746CD800A72486 /* NemoTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NemoTabBarTests.m; sourceTree = "<group>"; };
+		28B8EFD61B74849D00A72486 /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4@2x.png"; path = "../4@2x.png"; sourceTree = "<group>"; };
+		28B8EFD91B7486BC00A72486 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		28B8EFDA1B7486BC00A72486 /* chat_header_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chat_header_bg.jpg; sourceTree = "<group>"; };
+		28B8EFDB1B7486BC00A72486 /* crown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crown@2x.png"; sourceTree = "<group>"; };
+		28B8EFDC1B7486BC00A72486 /* crownSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crownSelect@2x.png"; sourceTree = "<group>"; };
+		28B8EFDD1B7486BC00A72486 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		28B8EFDE1B7486BC00A72486 /* homeSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeSelect@2x.png"; sourceTree = "<group>"; };
+		28B8EFDF1B7486BC00A72486 /* letfbutton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = letfbutton.jpg; sourceTree = "<group>"; };
+		28B8EFE01B7486BC00A72486 /* my@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my@2x.png"; sourceTree = "<group>"; };
+		28B8EFE11B7486BC00A72486 /* mySelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mySelect@2x.png"; sourceTree = "<group>"; };
+		28B8EFE21B7486BC00A72486 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		28B8EFE31B7486BC00A72486 /* searchSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchSelect@2x.png"; sourceTree = "<group>"; };
+		28B8EFE41B7486BC00A72486 /* shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop@2x.png"; sourceTree = "<group>"; };
+		28B8EFE51B7486BC00A72486 /* shopSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopSelect@2x.png"; sourceTree = "<group>"; };
+		28B8EFE61B7486BC00A72486 /* UInav.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UInav.jpg; sourceTree = "<group>"; };
+		28B8EFFC1B748AE900A72486 /* NemoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoButton.h; sourceTree = "<group>"; };
+		28B8EFFD1B748AE900A72486 /* NemoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoButton.m; sourceTree = "<group>"; };
+		28B8EFFE1B748AE900A72486 /* NemoTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoTabBar.h; sourceTree = "<group>"; };
+		28B8EFFF1B748AE900A72486 /* NemoTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoTabBar.m; sourceTree = "<group>"; };
+		28B8F0021B749B8400A72486 /* 6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6@2x.png"; sourceTree = "<group>"; };
+		28B8F0041B74A83D00A72486 /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		28B8F0051B74A83D00A72486 /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+		28B8F0071B74A85200A72486 /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		28B8F0081B74A85200A72486 /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		28B8F00A1B74A85F00A72486 /* TherrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TherrViewController.h; sourceTree = "<group>"; };
+		28B8F00B1B74A85F00A72486 /* TherrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TherrViewController.m; sourceTree = "<group>"; };
+		28B8F00D1B74A87500A72486 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		28B8F00E1B74A87500A72486 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		28B8F0121B74A89900A72486 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		28B8F0131B74A89900A72486 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		28DC69521B74FBE600FBAB8E /* NemoNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoNavigation.h; sourceTree = "<group>"; };
+		28DC69531B74FBE600FBAB8E /* NemoNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoNavigation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +139,9 @@
 		28B8EFAF1B746CD700A72486 /* NemoTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				28B8F0101B74A87E00A72486 /* New Group */,
+				28B8EFFB1B748AE900A72486 /* NemoTabBar */,
+				28B8EFD81B7486BC00A72486 /* TabBar */,
 				28B8EFB41B746CD700A72486 /* AppDelegate.h */,
 				28B8EFB51B746CD800A72486 /* AppDelegate.m */,
 				28B8EFB71B746CD800A72486 /* ViewController.h */,
@@ -117,6 +178,60 @@
 				28B8EFCB1B746CD800A72486 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28B8EFD81B7486BC00A72486 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				28B8F0021B749B8400A72486 /* 6@2x.png */,
+				28B8EFD91B7486BC00A72486 /* app_icon.png */,
+				28B8EFDA1B7486BC00A72486 /* chat_header_bg.jpg */,
+				28B8EFDB1B7486BC00A72486 /* crown@2x.png */,
+				28B8EFDC1B7486BC00A72486 /* crownSelect@2x.png */,
+				28B8EFDD1B7486BC00A72486 /* home@2x.png */,
+				28B8EFDE1B7486BC00A72486 /* homeSelect@2x.png */,
+				28B8EFDF1B7486BC00A72486 /* letfbutton.jpg */,
+				28B8EFE01B7486BC00A72486 /* my@2x.png */,
+				28B8EFE11B7486BC00A72486 /* mySelect@2x.png */,
+				28B8EFE21B7486BC00A72486 /* search@2x.png */,
+				28B8EFE31B7486BC00A72486 /* searchSelect@2x.png */,
+				28B8EFE41B7486BC00A72486 /* shop@2x.png */,
+				28B8EFE51B7486BC00A72486 /* shopSelect@2x.png */,
+				28B8EFE61B7486BC00A72486 /* UInav.jpg */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		28B8EFFB1B748AE900A72486 /* NemoTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				28B8EFD61B74849D00A72486 /* 4@2x.png */,
+				0264AA3C1B75CC8500D86B90 /* 0.JPG */,
+				28B8EFFC1B748AE900A72486 /* NemoButton.h */,
+				28B8EFFD1B748AE900A72486 /* NemoButton.m */,
+				28B8EFFE1B748AE900A72486 /* NemoTabBar.h */,
+				28B8EFFF1B748AE900A72486 /* NemoTabBar.m */,
+				28DC69521B74FBE600FBAB8E /* NemoNavigation.h */,
+				28DC69531B74FBE600FBAB8E /* NemoNavigation.m */,
+			);
+			path = NemoTabBar;
+			sourceTree = "<group>";
+		};
+		28B8F0101B74A87E00A72486 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				28B8F0041B74A83D00A72486 /* oneViewController.h */,
+				28B8F0051B74A83D00A72486 /* oneViewController.m */,
+				28B8F0071B74A85200A72486 /* twoViewController.h */,
+				28B8F0081B74A85200A72486 /* twoViewController.m */,
+				28B8F00A1B74A85F00A72486 /* TherrViewController.h */,
+				28B8F00B1B74A85F00A72486 /* TherrViewController.m */,
+				28B8F00D1B74A87500A72486 /* FourViewController.h */,
+				28B8F00E1B74A87500A72486 /* FourViewController.m */,
+				28B8F0121B74A89900A72486 /* FiveViewController.h */,
+				28B8F0131B74A89900A72486 /* FiveViewController.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +314,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B8EFF31B7486BC00A72486 /* shopSelect@2x.png in Resources */,
+				28B8EFEA1B7486BC00A72486 /* crownSelect@2x.png in Resources */,
 				28B8EFBC1B746CD800A72486 /* Main.storyboard in Resources */,
+				28B8EFF21B7486BC00A72486 /* shop@2x.png in Resources */,
+				0264AA3D1B75CC8500D86B90 /* 0.JPG in Resources */,
+				28B8EFD71B74849D00A72486 /* 4@2x.png in Resources */,
 				28B8EFC11B746CD800A72486 /* LaunchScreen.xib in Resources */,
+				28B8EFE91B7486BC00A72486 /* crown@2x.png in Resources */,
+				28B8EFEC1B7486BC00A72486 /* homeSelect@2x.png in Resources */,
+				28B8EFF11B7486BC00A72486 /* searchSelect@2x.png in Resources */,
+				28B8EFED1B7486BC00A72486 /* letfbutton.jpg in Resources */,
+				28B8F0031B749B8400A72486 /* 6@2x.png in Resources */,
+				28B8EFEF1B7486BC00A72486 /* mySelect@2x.png in Resources */,
+				28B8EFF41B7486BC00A72486 /* UInav.jpg in Resources */,
+				28B8EFE71B7486BC00A72486 /* app_icon.png in Resources */,
+				28B8EFEE1B7486BC00A72486 /* my@2x.png in Resources */,
+				28B8EFF01B7486BC00A72486 /* search@2x.png in Resources */,
 				28B8EFBE1B746CD800A72486 /* Images.xcassets in Resources */,
+				28B8EFE81B7486BC00A72486 /* chat_header_bg.jpg in Resources */,
+				28B8EFEB1B7486BC00A72486 /* home@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B8F0091B74A85200A72486 /* twoViewController.m in Sources */,
 				28B8EFB91B746CD800A72486 /* ViewController.m in Sources */,
+				28B8F0011B748AE900A72486 /* NemoTabBar.m in Sources */,
+				28B8F00F1B74A87500A72486 /* FourViewController.m in Sources */,
+				28B8F0141B74A89900A72486 /* FiveViewController.m in Sources */,
 				28B8EFB61B746CD800A72486 /* AppDelegate.m in Sources */,
+				28B8F00C1B74A85F00A72486 /* TherrViewController.m in Sources */,
+				28B8F0001B748AE900A72486 /* NemoButton.m in Sources */,
 				28B8EFB31B746CD700A72486 /* main.m in Sources */,
+				28B8F0061B74A83D00A72486 /* oneViewController.m in Sources */,
+				28DC69541B74FBE600FBAB8E /* NemoNavigation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NemoTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NemoTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +560,7 @@
 				28B8EFD21B746CD800A72486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B8EFD31B746CD800A72486 /* Build configuration list for PBXNativeTarget "NemoTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +569,7 @@
 				28B8EFD51B746CD800A72486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
