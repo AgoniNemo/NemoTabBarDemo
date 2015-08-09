@@ -49,6 +49,9 @@
         [button setTitleColor:itemColor];
         button.tag = i;
         [button addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+        [button setImage:[UIImage imageNamed:_iconImage[i]] forState:UIControlStateNormal];
+        [button setImage:[UIImage imageNamed:_selectIconImage[i]] forState:UIControlStateSelected];
+        button.imageEdgeInsets = UIEdgeInsetsMake(-8, 0, 0, 0);
         [_arrButton addObject:button];
         [self.backimageView addSubview:button];
         if (i == 0) {
@@ -114,6 +117,9 @@
 
     _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, screenSize.size.width/_ViewCollors.count, 49)];
     
+    NSString * image = _backImage ? _backImage: @"4@2x.png";
+    _imageView.image = [UIImage imageNamed:image];
+    
     _imageView.userInteractionEnabled = YES;
     
     [self.backimageView addSubview:_imageView];
@@ -127,19 +133,10 @@
 
     [super layoutSubviews];
     
-    NSString * image = _backImage ? _backImage: @"4@2x.png";
-    _imageView.image = [UIImage imageNamed:image];
+    NSLog(@"layoutSubviews");
     
-    for (int i = 0 ; i < _ViewCollors.count; i ++) {
-        NemoButton * button = _arrButton[i];
-        [button setImage:[UIImage imageNamed:_iconImage[i]] forState:UIControlStateNormal];
-        [button setImage:[UIImage imageNamed:_selectIconImage[i]] forState:UIControlStateSelected];
-        button.imageEdgeInsets = UIEdgeInsetsMake(-8, 0, 0, 0);
-        
-        /** 查看titleLabel.frame*/
-        NSLog(@"%@",NSStringFromCGRect(button.titleLabel.frame));
-
-    }
+    /** 查看titleLabel.frame*/
+//    NSLog(@"%@",NSStringFromCGRect(button.titleLabel.frame));
 }
 
 @end
