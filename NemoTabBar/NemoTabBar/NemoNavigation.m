@@ -20,9 +20,6 @@
     //设置NavigationBar 颜色
     self.navigationBar.barTintColor = [UIColor whiteColor];
     
-
-    
-    
 }
 
 
