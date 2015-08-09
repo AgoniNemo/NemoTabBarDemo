@@ -27,5 +27,7 @@
 @property (nonatomic,retain) UIColor * textColor;
 /** 设置字体被选中的颜色*/
 @property (nonatomic,retain) UIColor * SelectTextColor;
+/** 隐藏tabBar*/
+@property (nonatomic,getter=isHideTabBar) BOOL hideTabBar;
 
 @end

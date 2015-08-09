@@ -40,6 +40,7 @@
 		28B8F0141B74A89900A72486 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F0131B74A89900A72486 /* FiveViewController.m */; };
 		28DC69541B74FBE600FBAB8E /* NemoNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC69531B74FBE600FBAB8E /* NemoNavigation.m */; };
 		B02E39A81B7726B800843C60 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E39A71B7726B800843C60 /* testViewController.m */; };
+		B02E3A261B77396700843C60 /* NemoTabBarSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E3A251B77396700843C60 /* NemoTabBarSingle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		28DC69531B74FBE600FBAB8E /* NemoNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoNavigation.m; sourceTree = "<group>"; };
 		B02E39A61B7726B800843C60 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		B02E39A71B7726B800843C60 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		B02E3A241B77396700843C60 /* NemoTabBarSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoTabBarSingle.h; sourceTree = "<group>"; };
+		B02E3A251B77396700843C60 /* NemoTabBarSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoTabBarSingle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +219,8 @@
 				28B8EFFF1B748AE900A72486 /* NemoTabBar.m */,
 				28DC69521B74FBE600FBAB8E /* NemoNavigation.h */,
 				28DC69531B74FBE600FBAB8E /* NemoNavigation.m */,
+				B02E3A241B77396700843C60 /* NemoTabBarSingle.h */,
+				B02E3A251B77396700843C60 /* NemoTabBarSingle.m */,
 			);
 			path = NemoTabBar;
 			sourceTree = "<group>";
@@ -356,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02E3A261B77396700843C60 /* NemoTabBarSingle.m in Sources */,
 				28B8F0091B74A85200A72486 /* twoViewController.m in Sources */,
 				28B8EFB91B746CD800A72486 /* ViewController.m in Sources */,
 				28B8F0011B748AE900A72486 /* NemoTabBar.m in Sources */,

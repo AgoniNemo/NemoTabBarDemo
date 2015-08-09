@@ -9,6 +9,7 @@
 #import "NemoTabBar.h"
 #import "NemoButton.h"
 #import "NemoNavigation.h"
+#import "NemoTabBarSingle.h"
 
 #define screenSize [UIScreen mainScreen].bounds
 
@@ -22,6 +23,7 @@
 @property (nonatomic,retain) NemoButton * selectButton;
 @property (nonatomic,retain) UIViewController * removeView;
 @property (nonatomic,retain)UIImageView * backimageView;
+
 @end
 
 @implementation NemoTabBar
@@ -88,14 +90,33 @@
     UIViewController * vc = _ViewCollors[num];
     
     UINavigationController * nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+
     
     nvc.view.frame = CGRectMake(0, 0,screenSize.size.width, screenSize.size.height-49);
+    nvc.view.tag = 1000;
     
     vc.title = _tabBarTitle[num];
     
     [self.addControll.view addSubview:nvc.view];
     
     _removeView = nvc;
+    
+}
+-(void)setHideTabBar:(BOOL)hideTabBar{
+    
+
+    UIView * nvc = [self.addControll.view viewWithTag:1000];
+    
+    if (hideTabBar) {
+    nvc.frame = CGRectMake(0, 0,screenSize.size.width, screenSize.size.height);
+    }else{
+    
+    nvc.frame = CGRectMake(0, 0,screenSize.size.width, screenSize.size.height-49);
+        
+    }
+    
+    NSLog(@"%d",hideTabBar);
+
     
 }
 
@@ -132,7 +153,12 @@
 
     [super layoutSubviews];
     
+    NemoTabBarSingle * single = [NemoTabBarSingle saveNemoTabBarSingle];
+    
+    single.nemoTabBar = self;
+    
     NSLog(@"layoutSubviews");
+    
     
     /** 查看titleLabel.frame*/
 //    NSLog(@"%@",NSStringFromCGRect(button.titleLabel.frame));

@@ -7,7 +7,7 @@
 //
 
 #import "testViewController.h"
-
+#import "NemoTabBarSingle.h"
 @interface testViewController ()
 
 @end
@@ -17,20 +17,22 @@
 
 -(void)viewWillAppear:(BOOL)animated{
 
-// self.navigationController.navigationBarHidden= YES;
+    NemoTabBarSingle * singe = [NemoTabBarSingle saveNemoTabBarSingle];
+    
+    singe.nemoTabBar.hideTabBar = YES;
 
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    
+    NemoTabBarSingle * singe = [NemoTabBarSingle saveNemoTabBarSingle];
+    
+    singe.nemoTabBar.hideTabBar = NO;
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    
-    UIView * view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    view.backgroundColor = [UIColor yellowColor];
-    
-    NSLog(@"%@",NSStringFromCGRect(view.bounds));
-    
-    [self.view addSubview:view];
     
     
     

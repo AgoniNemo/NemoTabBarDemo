@@ -48,6 +48,7 @@
 //    tabBar.textColor = [UIColor yellowColor];
 //    tabBar.SelectTextColor = [UIColor purpleColor];
 //    tabBar.itemBackImage = @"0.JPG";
+    
     [self.view addSubview:tabBar];
     
 }
