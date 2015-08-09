@@ -20,7 +20,6 @@
 @property (nonatomic,retain) UIImageView * imageView;
 @property (nonatomic,retain) UIScrollView * scrollView;
 @property (nonatomic,retain) NemoButton * selectButton;
-@property (nonatomic,retain) NSMutableArray * arrButton;
 @property (nonatomic,retain) UIViewController * removeView;
 @property (nonatomic,retain)UIImageView * backimageView;
 @end
@@ -39,7 +38,7 @@
 
 -(void)createButton{
     
-    _arrButton = [[NSMutableArray alloc] init];
+    
     
     for (int i = 0 ; i < _ViewCollors.count; i ++) {
         
@@ -52,7 +51,7 @@
         [button setImage:[UIImage imageNamed:_iconImage[i]] forState:UIControlStateNormal];
         [button setImage:[UIImage imageNamed:_selectIconImage[i]] forState:UIControlStateSelected];
         button.imageEdgeInsets = UIEdgeInsetsMake(-8, 0, 0, 0);
-        [_arrButton addObject:button];
+        
         [self.backimageView addSubview:button];
         if (i == 0) {
             [self btnClick:button];

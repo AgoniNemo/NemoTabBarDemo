@@ -39,6 +39,7 @@
 		28B8F00F1B74A87500A72486 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F00E1B74A87500A72486 /* FourViewController.m */; };
 		28B8F0141B74A89900A72486 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8F0131B74A89900A72486 /* FiveViewController.m */; };
 		28DC69541B74FBE600FBAB8E /* NemoNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC69531B74FBE600FBAB8E /* NemoNavigation.m */; };
+		B02E39A81B7726B800843C60 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E39A71B7726B800843C60 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		28B8F0131B74A89900A72486 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
 		28DC69521B74FBE600FBAB8E /* NemoNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoNavigation.h; sourceTree = "<group>"; };
 		28DC69531B74FBE600FBAB8E /* NemoNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoNavigation.m; sourceTree = "<group>"; };
+		B02E39A61B7726B800843C60 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		B02E39A71B7726B800843C60 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +142,7 @@
 		28B8EFAF1B746CD700A72486 /* NemoTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				28B8F0101B74A87E00A72486 /* New Group */,
+				28B8F0101B74A87E00A72486 /* testController */,
 				28B8EFFB1B748AE900A72486 /* NemoTabBar */,
 				28B8EFD81B7486BC00A72486 /* TabBar */,
 				28B8EFB41B746CD700A72486 /* AppDelegate.h */,
@@ -217,9 +220,11 @@
 			path = NemoTabBar;
 			sourceTree = "<group>";
 		};
-		28B8F0101B74A87E00A72486 /* New Group */ = {
+		28B8F0101B74A87E00A72486 /* testController */ = {
 			isa = PBXGroup;
 			children = (
+				B02E39A61B7726B800843C60 /* testViewController.h */,
+				B02E39A71B7726B800843C60 /* testViewController.m */,
 				28B8F0041B74A83D00A72486 /* oneViewController.h */,
 				28B8F0051B74A83D00A72486 /* oneViewController.m */,
 				28B8F0071B74A85200A72486 /* twoViewController.h */,
@@ -231,7 +236,7 @@
 				28B8F0121B74A89900A72486 /* FiveViewController.h */,
 				28B8F0131B74A89900A72486 /* FiveViewController.m */,
 			);
-			name = "New Group";
+			name = testController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +362,7 @@
 				28B8F00F1B74A87500A72486 /* FourViewController.m in Sources */,
 				28B8F0141B74A89900A72486 /* FiveViewController.m in Sources */,
 				28B8EFB61B746CD800A72486 /* AppDelegate.m in Sources */,
+				B02E39A81B7726B800843C60 /* testViewController.m in Sources */,
 				28B8F00C1B74A85F00A72486 /* TherrViewController.m in Sources */,
 				28B8F0001B748AE900A72486 /* NemoButton.m in Sources */,
 				28B8EFB31B746CD700A72486 /* main.m in Sources */,

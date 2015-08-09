@@ -1,40 +1,40 @@
 //
-//  oneViewController.m
+//  testViewController.m
 //  NemoTabBar
 //
-//  Created by LiuDongQi on 15/8/7.
+//  Created by qf on 15/8/9.
 //  Copyright (c) 2015年 Nemo. All rights reserved.
 //
 
-#import "oneViewController.h"
 #import "testViewController.h"
 
-@interface oneViewController ()
+@interface testViewController ()
 
 @end
 
-@implementation oneViewController
+@implementation testViewController
 
 
+-(void)viewWillAppear:(BOOL)animated{
+
+// self.navigationController.navigationBarHidden= YES;
+
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor purpleColor];
+   
+    
+    UIView * view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    view.backgroundColor = [UIColor yellowColor];
+    
+    NSLog(@"%@",NSStringFromCGRect(view.bounds));
+    
+    [self.view addSubview:view];
     
     
     
     
-}
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-
-
-    testViewController * test = [[testViewController alloc] init];
-    
-    test.view.backgroundColor = [UIColor cyanColor];
-    
-    [self.navigationController pushViewController:test animated:YES];
-
-
 }
 
 - (void)didReceiveMemoryWarning {
